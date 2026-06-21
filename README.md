@@ -4,8 +4,7 @@ This is going to house all BadUSB scripts I have made or collaborated on for the
 
 # Ideas for Scripts
 1. remove windows bloatware, update for win11
-2. reset print spooler win11
-3. wipe/reset win11 system 
+2. wipe/reset win11 system 
 
 
 # Script Descriptions
@@ -17,3 +16,9 @@ Will type out messages over the course of 10-15 minutes making it look like you 
 Reset Print Spooler Win11
 
 Will stop your print spooler, clear any cache/temp files, then restart the print spooler, effectively helping troubleshoot printer problems.
+
+CMD-DISM&SFC
+
+This script opens CMD then runs DISM & SFC in the same line on your computer. This can be used to check the OS for corruption and other files for corruption. Use if the system is not functioning as expected.
+
+
