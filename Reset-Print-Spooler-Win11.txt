@@ -1,0 +1,41 @@
+REM Reset Windows 11 Print Spooler
+REM Opens elevated command prompt and restarts the spooler service
+REM Make sure the desktop is focused before running
+
+DELAY 2000
+
+REM Open Run dialog
+GUI r
+DELAY 600
+
+REM Launch CMD as administrator
+STRING cmd
+DELAY 300
+CTRL SHIFT ENTER
+DELAY 2000
+
+REM Handle the UAC prompt — press Left arrow to select Yes then Enter
+LEFTARROW
+DELAY 300
+ENTER
+DELAY 1500
+
+REM Stop the spooler
+STRING net stop spooler
+ENTER
+DELAY 3000
+
+REM Clear the print queue
+STRING del /Q /F /S "%systemroot%\System32\spool\PRINTERS\*.*"
+ENTER
+DELAY 2000
+
+REM Start the spooler again
+STRING net start spooler
+ENTER
+DELAY 2000
+
+REM Confirm done
+STRING echo Print spooler reset complete!
+ENTER
+DELAY 1000
