@@ -21,4 +21,6 @@ CMD-DISM&SFC
 
 This script opens CMD then runs DISM & SFC in the same line on your computer. This can be used to check the OS for corruption and other files for corruption. Use if the system is not functioning as expected.
 
+FixLang-ToEnglish
 
+There are TWO scripts for this and an included .ps1 file. The original FixLang-ToEnglish, must have the PC keyboard set to english in order to work. If that is not an option, the next one I included was FixLang-USB, with an accompanied .ps1 file you must put on a usb, plug it in, then run the BadUSB script from the flipper in order to get it to work properly.
