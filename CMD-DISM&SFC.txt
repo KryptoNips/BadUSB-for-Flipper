@@ -1,0 +1,31 @@
+REM Run DISM and SFC on Windows 11
+REM Repairs Windows image and system files
+REM Desktop must be focused before running
+
+DELAY 2000
+
+REM Open Run dialog
+GUI r
+DELAY 600
+
+REM Launch CMD as administrator
+STRING cmd
+DELAY 300
+CTRL SHIFT ENTER
+DELAY 2000
+
+REM Handle UAC prompt
+LEFTARROW
+DELAY 300
+ENTER
+DELAY 2000
+
+REM Run DISM and SFC back to back with no wait
+STRING DISM /Online /Cleanup-Image /RestoreHealth && sfc /scannow
+ENTER
+DELAY 2000
+
+REM Print completion message
+STRING echo Done! Check above for any errors.
+ENTER
+DELAY 2000
