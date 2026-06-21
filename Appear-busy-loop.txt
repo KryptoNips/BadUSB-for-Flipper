@@ -1,0 +1,196 @@
+REM Appear-busy-loop
+REM Save as appear_busy.txt in /badusb/ on SD card
+
+DELAY 2000
+
+REM === Cycle 1 ===
+STRING Dear Team, I wanted to follow up on our recent discussion regarding the project timeline and the various dependencies that have come up over the past few weeks.
+DELAY 8000
+STRING It seems like there are several moving pieces that we need to coordinate carefully to ensure everything comes together before the deadline.
+DELAY 6000
+STRING I have been reviewing the notes from our last meeting and I think there are a few action items we should prioritize this week.
+DELAY 7000
+STRING First, we need to confirm availability with all relevant stakeholders. Second, an updated status from each team lead would help us identify blockers early.
+DELAY 9000
+STRING Finally, I would suggest scheduling a brief check-in later this week to align on next steps and assign ownership.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 2 ===
+STRING Hi everyone, circling back on a few things I have been thinking about since our last conversation.
+DELAY 7000
+STRING There is quite a bit to cover so I will try to be concise while still addressing each point thoroughly.
+DELAY 6000
+STRING One area I keep returning to is the communication structure between teams, which I think could be streamlined significantly.
+DELAY 8000
+STRING If we establish clearer ownership for each workstream and set expectations around update cadence I think we will see real improvement.
+DELAY 6000
+STRING I will put together a brief summary doc this week and share it out for feedback before our next sync.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 3 ===
+STRING Good morning, wanted to share a few thoughts before our meeting this afternoon while they are fresh in my mind.
+DELAY 7000
+STRING I have been going through the latest draft and have some notes that I think will strengthen the overall approach considerably.
+DELAY 8000
+STRING The main thing I want to flag is the dependency on the external vendor timeline which currently creates some risk for our Q3 deliverable.
+DELAY 6000
+STRING I will bring a proposed mitigation to the meeting but wanted to give everyone a heads up in advance so we can hit the ground running.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 4 ===
+STRING Following up on the conversation from earlier this week, I have had a chance to dig into the numbers a bit more deeply.
+DELAY 8000
+STRING The data broadly supports the direction we discussed, though there are a couple of outliers worth examining before we finalize anything.
+DELAY 7000
+STRING I have flagged these in the spreadsheet and added some commentary in the notes column to explain my interpretation.
+DELAY 6000
+STRING Happy to walk through it together on a call if that would be more efficient than going back and forth over email.
+DELAY 7000
+STRING Just let me know what works best for your schedule and I will send a calendar invite.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 5 ===
+STRING Hi, wanted to get your thoughts on something I have been mulling over in relation to the roadmap for next quarter.
+DELAY 8000
+STRING I think there is an opportunity to consolidate a couple of the workstreams in a way that would reduce overhead without sacrificing output quality.
+DELAY 6000
+STRING The idea is still fairly rough but I wanted to run it by you early rather than waiting until it is fully baked.
+DELAY 7000
+STRING Would love to get fifteen minutes on the calendar to talk through the concept and get your initial reaction.
+DELAY 5000
+STRING No pressure to have answers ready, just looking for a gut check at this stage before I invest more time developing it.
+DELAY 6000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 6 ===
+STRING Good afternoon everyone, just a quick note to share where things stand on my end ahead of tomorrow's review.
+DELAY 7000
+STRING I have completed the first pass on all three sections and am currently working through the revisions from the last round of feedback.
+DELAY 8000
+STRING Most of the changes are straightforward but there are a couple of open questions I want to resolve before marking it ready for review.
+DELAY 6000
+STRING I am hoping to have everything wrapped up by end of day and will send a note when it is ready to look at.
+DELAY 7000
+STRING Thanks for your patience and please do not hesitate to reach out if anything is time sensitive on your end.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 7 ===
+STRING Wanted to take a moment to document some of the decisions we made in last week's planning session for future reference.
+DELAY 8000
+STRING We agreed to move forward with option B for the infrastructure changes, with the caveat that we revisit after the pilot wraps up.
+DELAY 7000
+STRING The timeline was set at six weeks from kickoff with checkpoints at weeks two and four to assess progress against milestones.
+DELAY 6000
+STRING Responsibilities were divided as follows: engineering owns the build, product owns acceptance criteria, and ops handles rollout coordination.
+DELAY 8000
+STRING I will add this to the shared notes doc and tag everyone for confirmation that I have captured things correctly.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 8 ===
+STRING Hi there, reaching out because I came across something in my research this morning that I think is directly relevant to what we are working on.
+DELAY 7000
+STRING There is a case study from a similar organization that went through a comparable transition about eighteen months ago with some interesting results.
+DELAY 8000
+STRING Their approach was not identical to ours but there are enough parallels that I think the learnings are worth incorporating into our planning.
+DELAY 6000
+STRING I will send over the link along with a short summary of the key takeaways so you do not have to read the whole thing.
+DELAY 7000
+STRING Would be curious to hear your perspective on how their experience maps to our situation.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 9 ===
+STRING Just wrapping up the analysis I mentioned earlier and wanted to share a preliminary summary before the full report is ready.
+DELAY 8000
+STRING At a high level the findings suggest that our current approach is solid but there are two areas where targeted adjustments could yield meaningful gains.
+DELAY 7000
+STRING The first is around process efficiency in the early stages of the workflow where there tends to be the most bottlenecking.
+DELAY 6000
+STRING The second relates to how we handle exceptions which currently requires a lot of manual intervention that could potentially be reduced.
+DELAY 8000
+STRING I will have the full write-up ready by Thursday and will schedule time to walk through the recommendations together.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 10 ===
+STRING Good morning, hope everyone had a good weekend. Jumping straight in as we have a fair amount to get through this week.
+DELAY 7000
+STRING The main priority is getting the deliverable across the line by Friday which means we need to be disciplined about scope this week.
+DELAY 6000
+STRING Anything that is not directly tied to the core requirements should be logged for a future iteration rather than included now.
+DELAY 8000
+STRING I know there are several nice-to-have items that have come up in recent conversations and I want to be clear that they are not forgotten.
+DELAY 7000
+STRING We will revisit them in the next planning cycle once the immediate deadline pressure has lifted.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 11 ===
+STRING Hi, following up on the thread from last week as I realize I never closed the loop on the question you raised.
+DELAY 8000
+STRING After looking into it further I believe the answer is yes, we can accommodate that request within the current scope.
+DELAY 6000
+STRING The main dependency is getting sign-off from the relevant team lead which I am told should not be an issue given the nature of the change.
+DELAY 7000
+STRING I will confirm with them today and send you a note as soon as I have their response so you can plan accordingly.
+DELAY 6000
+STRING Apologies for the delay in getting back to you on this, it slipped through the cracks during a busy stretch.
+DELAY 5000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
+
+REM === Cycle 12 ===
+STRING Afternoon all, sending this ahead of our end of week wrap-up to share a few reflections on how things went this week.
+DELAY 7000
+STRING Overall I think we made solid progress considering the number of competing priorities and the tight turnaround on several of the deliverables.
+DELAY 8000
+STRING The collaboration between teams was noticeably smoother than in previous sprints which I think reflects the process improvements we put in place.
+DELAY 6000
+STRING There are still some rough edges to iron out, particularly around handoff points, but the trajectory is encouraging.
+DELAY 7000
+STRING Looking ahead to next week I will send a priorities note by Monday morning so everyone can hit the ground running.
+DELAY 5000
+STRING Have a good weekend and thanks for all the effort this week, it really showed.
+DELAY 4000
+CTRL a
+DELAY 500
+DELETE
+DELAY 2000
