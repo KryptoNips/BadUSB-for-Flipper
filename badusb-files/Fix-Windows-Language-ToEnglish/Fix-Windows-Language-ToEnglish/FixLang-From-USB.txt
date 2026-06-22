@@ -1,0 +1,16 @@
+REM Run fixlang.ps1 from USB drive
+REM Insert USB drive with fixlang.ps1 saved to root as D:\fixlang.ps1
+REM Desktop must be focused before running
+
+DELAY 2000
+
+GUI r
+DELAY 800
+
+STRING powershell -ExecutionPolicy Bypass -File D:\fixlang.ps1
+CTRL SHIFT ENTER
+DELAY 2000
+
+LEFTARROW
+DELAY 300
+ENTER

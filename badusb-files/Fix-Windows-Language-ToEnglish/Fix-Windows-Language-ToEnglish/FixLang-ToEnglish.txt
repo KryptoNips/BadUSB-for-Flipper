@@ -1,0 +1,51 @@
+REM Change Windows 11 System Language to English
+REM Desktop must be focused before running
+REM You must have the English Keyboard selected before running, if you cannot do that, you will need to run the other script for this that includes the .ps1 file to put on a USB.
+
+DELAY 2000
+
+REM Open Run dialog
+GUI r
+DELAY 600
+
+REM Launch PowerShell as administrator
+STRING powershell
+DELAY 300
+CTRL SHIFT ENTER
+DELAY 2000
+
+REM Handle UAC prompt
+LEFTARROW
+DELAY 300
+ENTER
+DELAY 2000
+
+REM Set system locale to English US
+STRING Set-WinSystemLocale en-US
+ENTER
+DELAY 1000
+
+REM Set user language list to English US
+STRING Set-WinUserLanguageList en-US -Force
+ENTER
+DELAY 1000
+
+REM Set UI language to English
+STRING Set-WinUILanguageOverride -Language en-US
+ENTER
+DELAY 1000
+
+REM Set home location to US
+STRING Set-WinHomeLocation -GeoId 244
+ENTER
+DELAY 1000
+
+REM Confirm done
+STRING Write-Host "Language set to English US. Restart required."
+ENTER
+DELAY 2000
+
+REM Prompt restart
+STRING Restart-Computer -Force
+ENTER
+DELAY 2000
